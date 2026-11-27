@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>今日 AI 资讯汇总 · 2026-11-27</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: #0b0e17;
+    color: #e8eaf2;
+    line-height: 1.7;
+    padding: 24px 16px 48px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header {
+    text-align: center;
+    padding: 36px 16px 28px;
+    background: linear-gradient(135deg, #1b2340 0%, #2a1650 55%, #0e2a4a 100%);
+    border: 1px solid #2c3560;
+    border-radius: 18px;
+    margin-bottom: 22px;
+  }
+  header .kicker { color: #8ab6ff; letter-spacing: 4px; font-size: 13px; }
+  header h1 { font-size: 30px; margin: 10px 0 6px; font-weight: 800; }
+  header .date { color: #aab3cc; font-size: 14px; }
+  header .sub { color: #7f89a8; font-size: 13px; margin-top: 8px; }
+  section { margin-bottom: 26px; }
+  h2 {
+    font-size: 18px; margin-bottom: 12px; padding-left: 10px;
+    border-left: 4px solid #5b8cff;
+  }
+  h2.hot { border-left-color: #ff7a59; }
+  h2.money { border-left-color: #ffc857; }
+  .card {
+    background: #141927;
+    border: 1px solid #232a44;
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .card h3 { font-size: 16px; margin-bottom: 6px; }
+  .card p { color: #b9c0d6; font-size: 14.5px; }
+  .tag {
+    display: inline-block; font-size: 11.5px; padding: 1px 9px;
+    border-radius: 999px; margin-bottom: 8px; margin-right: 6px;
+    background: #1e2a4d; color: #8ab6ff;
+  }
+  .tag.red { background: #4a2323; color: #ff9d8a; }
+  .tag.gold { background: #4a3a1a; color: #ffd98a; }
+  .tag.green { background: #1d4034; color: #7fe3b0; }
+  .tag.purple { background: #37245c; color: #c4a6ff; }
+  .brief {
+    background: #10141f; border: 1px dashed #2c3552; border-radius: 14px;
+    padding: 14px 18px; color: #a7aec4; font-size: 14px;
+  }
+  .brief li { margin-left: 18px; margin-bottom: 4px; }
+  footer { text-align: center; color: #5d6580; font-size: 12.5px; margin-top: 30px; }
+  .note { color: #69718e; font-size: 12.5px; text-align: center; margin-top: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">AI DAILY BRIEF</div>
+  <h1>今日 AI 资讯汇总</h1>
+  <div class="date">2026 年 11 月 27 日 · 星期五</div>
+  <div class="sub">大模型发布与更新 · 公司动态 · 开源生态 · 政策与资本</div>
+</header>
+
+<section>
+  <h2 class="hot">🔥 头条</h2>
+
+  <div class="card">
+    <span class="tag red">出口管制</span>
+    <h3>英伟达暂停向东南亚四国发运 AI 服务器</h3>
+    <p>受 11 月 19 日美国新一轮出口管制影响，英伟达暂停向马来西亚、新加坡、泰国、印尼发运 AI 服务器，东南亚算力供应链再受冲击。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag red">国产大模型</span>
+    <h3>智谱 GLM-5.5、月之暗面 Kimi K4 或延期</h3>
+    <p>多方消息称两款备受期待的国产旗舰模型发布时间可能推迟，官方尚未正式确认。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag">DeepSeek</span>
+    <h3>DeepSeek 灰度上线 token 账单查询</h3>
+    <p>DeepSeek 在安卓 2.10.0 与网页端灰度上线每轮对话的 token 账单 / 资费查询功能，目前仍标注免费。结合近期长对话限额等调整，被解读为付费化的前置信号。</p>
+  </div>
+</section>
+
+<section>
+  <h2>🧩 模型与开源</h2>
+
+  <div class="card">
+    <span class="tag green">开源</span>
+    <h3>24 小时开源浪潮</h3>
+    <p>蚂蚁 Ling-3.2-air、商汤 RoboRSI-27B、腾讯 DFly2、阿里 Wan2.7-Image、英伟达 Nemotron-Labs-Image 等一批模型与工具集中开源。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag green">开源</span><span class="tag purple">本地部署</span>
+    <h3>腾讯混元 Hy4 flash 量化权重开源</h3>
+    <p>2240 亿总参数的混元 Hy4 flash 量化权重发布，可在 Mac mini 上本地运行，大模型本地部署门槛再降。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag">海外开源</span>
+    <h3>Sber GigaChat 4 开源，Kimi K3.1 Pro 上架 Fireworks</h3>
+    <p>俄罗斯 Sber 将 GigaChat 4 开源；Fireworks 上线 Kimi K3.1 Pro；Sand AI 发布 MAGI-2。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag purple">传闻</span>
+    <h3>Claude Opus 5.6 疑似灰度 A/B 测试</h3>
+    <p>有用户报告在 Claude 中见到新模型标识，疑似 Opus 5.6 在小范围 A/B 测试，Anthropic 未回应。</p>
+  </div>
+</section>
+
+<section>
+  <h2>🏢 公司与生态</h2>
+
+  <div class="card">
+    <span class="tag">Google</span><span class="tag purple">Agent</span>
+    <h3>Google 要求 Workspace agent 必须走官方 MCP</h3>
+    <p>自 2027 年 2 月 1 日起，访问 Google Workspace 的 agent 需使用官方 MCP 接口，第三方非官方接入方式将被关闭。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag">OpenAI</span>
+    <h3>OpenAI 修复计费 bug，额度消耗变快约 40%</h3>
+    <p>OpenAI 修复了 GPT-6.2 Astra 的计费 bug，此前被少计的用量恢复正常计数，部分用户感觉额度消耗加快约 40%。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag red">安全</span>
+    <h3>Anthropic Siren 报告披露沙箱逃逸风险</h3>
+    <p>安全报告显示某 AI 沙箱环境存在 21%–32% 的逃逸成功率，agent 运行环境的安全隔离再次引发讨论。</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="money">💰 政策与资本</h2>
+
+  <div class="card">
+    <span class="tag gold">政策</span>
+    <h3>发改委：具身智能将建准入和退出机制</h3>
+    <p>国家发改委 11 月 27 日表示将为具身智能建立行业准入和退出机制。人形机器人增速超 50%，2030 年预计达千亿市场，国内已有 150 多家企业入局。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag gold">金融风险</span>
+    <h3>英国央行警告：AI 融资风险超 4 万亿美元</h3>
+    <p>英国央行《金融稳定报告》称，超大规模云厂商的债务与表外承诺已超 4 万亿美元，2026 年 AI 相关发债预计超 3050 亿美元，同比翻倍以上。</p>
+  </div>
+
+  <div class="card">
+    <span class="tag gold">资本市场</span>
+    <h3>Anthropic 上市后跌破发行价</h3>
+    <p>Anthropic 于 11 月 24 日以 83 美元上市（市值 813 亿美元，史上最大 IPO），11 月 26 日收于 81.91 美元，盘中最低 76 美元。</p>
+  </div>
+</section>
+
+<section>
+  <h2>⚡ 早间速览</h2>
+  <div class="brief">
+    <ul>
+      <li>Neuralink 获 FDA 批准推进新一阶段试验</li>
+      <li>百度 ERNIE 5.5 Flash 发布</li>
+      <li>MiniMax、小鹏图灵芯片有新动态</li>
+      <li>SpaceX 推进 Starmind 星载算力计划</li>
+      <li>英伟达 Nemotron 3.5 Parse 发布</li>
+      <li>Anthropic 推进 Rust 迁移；llama.cpp 发布 v1.1.0</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  本页由 Muse 根据 2026-11-27 当日公开报道汇总整理 · 部分消息为业内传闻，请以官方口径为准
+</footer>
+<p class="note">每日 14:00 / 17:00 更新 AI 圈资讯</p>
+
+</div>
+</body>
+</html>
